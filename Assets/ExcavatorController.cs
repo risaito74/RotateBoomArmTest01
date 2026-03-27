@@ -35,21 +35,19 @@ public class ExcavatorController : MonoBehaviour
         {
             boom.RotateAround(boomAxis.position, Vector3.forward, -rotateSpeed * Time.deltaTime);
         }
-
         // Dキー：右レバー引く → ブーム上げる
-        if (Keyboard.current.dKey.isPressed)
+        else if (Keyboard.current.dKey.isPressed)
         {
             boom.RotateAround(boomAxis.position, Vector3.forward, rotateSpeed * Time.deltaTime);
         }
 
-        // Qキー：Arm Dump（アームを伸ばす）
+        // Qキー：左レバー押す → Arm Dump（アームを伸ばす）
         if (Keyboard.current.qKey.isPressed)
         {
             arm.RotateAround(armAxis.position, Vector3.forward, rotateSpeed * Time.deltaTime);
         }
-
-        // Aキー：Arm Curl（アームを曲げる）
-        if (Keyboard.current.aKey.isPressed)
+        // Aキー：左レバー引く → Arm Curl（アームを曲げる）
+        else if (Keyboard.current.aKey.isPressed)
         {
             arm.RotateAround(armAxis.position, Vector3.forward, -rotateSpeed * Time.deltaTime);
         }
