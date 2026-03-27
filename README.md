@@ -2,6 +2,8 @@
 
 Unityで重機（ユンボ）のブームとアームを、それぞれの接続部を回転軸にして操作するサンプルプロジェクトです。
 
+<img width="1918" height="1004" alt="image" src="https://github.com/user-attachments/assets/d97693f6-8d40-4536-8972-aec073c349ba" />
+
 ## 環境
 
 - Windows 11
