@@ -83,4 +83,5 @@ void Start()
 
 ## 関連記事
 
-- [Unityで横長Cubeの左端、右端を回転軸にして回転する操作](https://note.com/inu94suno/n/n605e5fc46164)
+- [note：Unityで概念ユンボのブームとアームをJIS風に操縦する](https://note.com/inu94suno/n/nbb2c036425ad)
+- [note：Unityで横長Cubeの左端、右端を回転軸にして回転する操作](https://note.com/inu94suno/n/n605e5fc46164)
